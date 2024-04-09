@@ -1,0 +1,19 @@
+$(O)/cudaSymplectic.o: cudaSymplectic.C matlabUtils.h matlabArray.h matlabStructures.h rmat.h matbase.h vecbase.h lst.h die.h indent.h fort.h rvecalgo.h rmatalgo.h fint.h matlabData.h cudaOpenmpMD.h wavepacketson1device.h omegawavepacket.h symplecticUtils.h
+$(O)/cudaUtils.o: cudaUtils.C cudaUtils.h matlabUtils.h 
+$(O)/die.o: die.C die.h matlabUtils.h 
+$(O)/indent.o: indent.C indent.h
+$(O)/matlabData.o: matlabData.C matlabData.h matlabStructures.h rmat.h matbase.h vecbase.h lst.h die.h matlabUtils.h indent.h fort.h rvecalgo.h rmatalgo.h fint.h
+$(O)/matlabStructures.o: matlabStructures.C matlabStructures.h rmat.h matbase.h vecbase.h lst.h die.h matlabUtils.h indent.h fort.h rvecalgo.h rmatalgo.h fint.h matlabArray.h matlabData.h evolutionUtils.h numGradient.h
+$(O)/matlabStructuresio.o: matlabStructuresio.C indent.h matlabStructures.h rmat.h matbase.h vecbase.h lst.h die.h matlabUtils.h fort.h rvecalgo.h rmatalgo.h fint.h
+$(O)/matlabUtils.o: matlabUtils.C matlabUtils.h
+$(O)/mex2matlab.o: mex2matlab.C matlabUtils.h
+$(O)/out.o: out.C out.h die.h matlabUtils.h fort.h
+$(O)/rmatalgo.o: rmatalgo.C
+$(O)/rmato.o: rmato.C rmat.h matbase.h vecbase.h lst.h die.h matlabUtils.h indent.h fort.h rvecalgo.h rmatalgo.h fint.h out.h
+$(O)/cudaOpenmpMD.o : cudaOpenmpMD.cu cudaOpenmpMD.h wavepacketson1device.h omegawavepacket.h vecbase.h lst.h die.h matlabUtils.h indent.h rmat.h matbase.h fort.h rvecalgo.h rmatalgo.h fint.h cudaUtils.h matlabData.h matlabStructures.h evolutionUtils.h numGradient.h symplecticUtils.h genUtils.h 
+$(O)/evolutionAux.o : evolutionAux.cu evolutionUtils.h matlabStructures.h rmat.h matbase.h vecbase.h lst.h die.h matlabUtils.h indent.h fort.h rvecalgo.h rmatalgo.h fint.h numGradient.h cudaMath.h complex.h coriolisUtils.h
+$(O)/numGradient.o : numGradient.cu cudaUtils.h numGradient.h matlabUtils.h complex.h 
+$(O)/omegawavepacket.o : omegawavepacket.cu omegawavepacket.h cudaUtils.h matlabUtils.h matlabData.h matlabStructures.h rmat.h matbase.h vecbase.h lst.h die.h indent.h fort.h rvecalgo.h rmatalgo.h fint.h symplecticUtils.h evolutionAux.cu evolutionUtils.h numGradient.h cudaMath.h complex.h coriolisUtils.h reactProb.h
+$(O)/reactProb.o : reactProb.cu cudaUtils.h matlabData.h matlabStructures.h rmat.h matbase.h vecbase.h lst.h die.h matlabUtils.h indent.h fort.h rvecalgo.h rmatalgo.h fint.h evolutionUtils.h numGradient.h reactProb.h complex.h omegawavepacket.h evolutionAux.cu cudaMath.h coriolisUtils.h
+$(O)/wavepacketson1device.o : wavepacketson1device.cu wavepacketson1device.h omegawavepacket.h vecbase.h lst.h die.h matlabUtils.h indent.h rmat.h matbase.h fort.h rvecalgo.h rmatalgo.h fint.h cudaUtils.h matlabData.h matlabStructures.h evolutionUtils.h numGradient.h evolutionAux.cu cudaMath.h complex.h coriolisUtils.h
+$(O)/rmat.o: rmat.F

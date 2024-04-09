@@ -1,0 +1,2 @@
+$(O)/BKMP2Mex.o: BKMP2Mex.C /scratch/work/vip-amd-cuda/qd-symplectic/cuda/H3/../common-cuda/fort.h /scratch/work/vip-amd-cuda/qd-symplectic/cuda/H3/../common-cuda/matlabUtils.h
+$(O)/H3LSTHMex.o: H3LSTHMex.C /scratch/work/vip-amd-cuda/qd-symplectic/cuda/H3/../common-cuda/fort.h /scratch/work/vip-amd-cuda/qd-symplectic/cuda/H3/../common-cuda/matlabUtils.h

@@ -1,0 +1,2 @@
+$(O)/OHClKSGMex.o: OHClKSGMex.C /home/wang/matlab/qd-cuda-symplectic-2018/common-cuda/fort.h /home/wang/matlab/qd-cuda-symplectic-2018/common-cuda/matlabUtils.h
+$(O)/OHClKSG.o: OHClKSG.F

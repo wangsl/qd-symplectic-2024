@@ -1,0 +1,5 @@
+$(O)/GaussLegendreGridsMex.o: GaussLegendreGridsMex.C
+$(O)/fcnpakMex.o: fcnpakMex.C
+$(O)/dgamma.o: dgamma.F
+$(O)/fcnpak.o: fcnpak.F
+$(O)/gaussq.o: gaussq.F

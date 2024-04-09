@@ -1,0 +1,3 @@
+$(O)/OHClRKHSMex.o: OHClRKHSMex.C /home/wang/matlab/qd-cuda-symplectic-2018/common-cuda/fort.h /home/wang/matlab/qd-cuda-symplectic-2018/common-cuda/matlabUtils.h
+$(O)/rkhs_pes_3Adp.o: rkhs_pes_3Adp.F
+$(O)/rkhs_pes_3Ap.o: rkhs_pes_3Ap.F
